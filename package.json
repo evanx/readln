@@ -1,0 +1,30 @@
+{
+  "name": "readln",
+  "version": "0.0.1",
+  "description": "Read lines from standard input.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache src",
+    "start": "node --harmony index.js"
+  },
+  "author": {
+    "url": "https://twitter.com/@evanxsummers"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.17.2",
+    "split": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanx/readln.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanx/readln/issues"
+  },
+  "homepage": "https://github.com/evanx/readln#readme"
+}
